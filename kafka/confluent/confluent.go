@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	rdkafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/kafka"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/kafka"
 )
 
 type topicPartitionInfo struct {

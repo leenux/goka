@@ -6,9 +6,9 @@ import (
 	"hash/fnv"
 	"path/filepath"
 
-	"github.com/lovoo/goka/kafka"
-	"github.com/lovoo/goka/logger"
-	"github.com/lovoo/goka/storage"
+	"github.com/leenux/goka/kafka"
+	"github.com/leenux/goka/logger"
+	"github.com/leenux/goka/storage"
 )
 
 // UpdateCallback is invoked upon arrival of a message for a table partition.

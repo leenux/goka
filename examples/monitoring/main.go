@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/web/index"
-	"github.com/lovoo/goka/web/monitor"
-	"github.com/lovoo/goka/web/query"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/codec"
+	"github.com/leenux/goka/web/index"
+	"github.com/leenux/goka/web/monitor"
+	"github.com/leenux/goka/web/query"
 )
 
 var (

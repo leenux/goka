@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/facebookgo/ensure"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/storage"
+	"github.com/leenux/goka/codec"
+	"github.com/leenux/goka/storage"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

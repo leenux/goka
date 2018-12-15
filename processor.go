@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lovoo/goka/kafka"
-	"github.com/lovoo/goka/logger"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/storage"
+	"github.com/leenux/goka/kafka"
+	"github.com/leenux/goka/logger"
+	"github.com/leenux/goka/multierr"
+	"github.com/leenux/goka/storage"
 )
 
 // Processor is a set of stateful callback functions that, on the arrival of

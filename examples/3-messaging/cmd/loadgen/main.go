@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lovoo/goka/examples/3-messaging"
+	"github.com/leenux/goka/examples/3-messaging"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lovoo/goka/kafka"
+	"github.com/leenux/goka/kafka"
 )
 
 type consumer struct {

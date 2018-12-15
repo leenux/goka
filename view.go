@@ -7,10 +7,10 @@ import (
 	"log"
 	"sync"
 
-	"github.com/lovoo/goka/kafka"
-	"github.com/lovoo/goka/logger"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/storage"
+	"github.com/leenux/goka/kafka"
+	"github.com/leenux/goka/logger"
+	"github.com/leenux/goka/multierr"
+	"github.com/leenux/goka/storage"
 )
 
 // Getter functions return a value for a key or an error. If no value exists for the key, nil is returned without errors.

@@ -1,0 +1,23 @@
+package: github.com/leenux/goka
+import:
+- package: github.com/Shopify/sarama
+- package: github.com/bsm/sarama-cluster
+- package: github.com/confluentinc/confluent-kafka-go
+  subpackages:
+  - kafka
+- package: github.com/golang/mock
+  subpackages:
+  - gomock
+- package: github.com/gorilla/mux
+- package: github.com/syndtr/goleveldb
+  subpackages:
+  - leveldb
+  - leveldb/iterator
+  - leveldb/opt
+  - leveldb/util
+- package: github.com/wvanbergen/kazoo-go
+- package: gopkg.in/redis.v5
+- package: gopkg.in/yaml.v2
+- package: golang.org/x/sync
+testImport:
+- package: github.com/facebookgo/ensure

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lovoo/goka/kafka/mock"
+	"github.com/leenux/goka/kafka/mock"
 
 	"github.com/facebookgo/ensure"
 	"github.com/golang/mock/gomock"

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lovoo/goka/kafka/mock"
+	"github.com/leenux/goka/kafka/mock"
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"

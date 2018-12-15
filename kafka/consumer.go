@@ -5,7 +5,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"
-	"github.com/lovoo/goka/multierr"
+	"github.com/leenux/goka/multierr"
 )
 
 const (

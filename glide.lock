@@ -1,0 +1,81 @@
+hash: 080922d612e4bbf1d4d48331a99686f7f65950b9ee2b46c847873f3c076db122
+updated: 2018-12-15T18:07:07.916532879+08:00
+imports:
+- name: github.com/bsm/sarama-cluster
+  version: b92bef2341de4501b89731753e484c0ec993777b
+- name: github.com/confluentinc/confluent-kafka-go
+  version: f92ff40c915c88de939da8106b003966e9a0b92b
+  subpackages:
+  - kafka
+- name: github.com/DataDog/zstd
+  version: c7161f8c63c045cbc7ca051dcc969dd0e4054de2
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/eapache/go-resiliency
+  version: 487be0453c7b062bff8dcd0ca2570f09e780a9e2
+  subpackages:
+  - breaker
+- name: github.com/eapache/go-xerial-snappy
+  version: 776d5712da21bc4762676d614db1d8a64f4238b0
+- name: github.com/eapache/queue
+  version: 093482f3f8ce946c05bcba64badd2c82369e084d
+- name: github.com/golang/mock
+  version: 3b08ada96ed40e57fe7a70f2e4d5858e8dfd9af2
+  subpackages:
+  - gomock
+- name: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- name: github.com/gorilla/mux
+  version: d2b5d13b9260193b5a5649e9f47fda645bd2bd1d
+- name: github.com/pierrec/lz4
+  version: 623b5a2f4d2a41e411730dcdfbfdaeb5c0c4564e
+  subpackages:
+  - internal/xxh32
+- name: github.com/rcrowley/go-metrics
+  version: 3113b8401b8a98917cde58f8bbd42a1b1c03b1fd
+- name: github.com/samuel/go-zookeeper
+  version: c4fab1ac1bec58281ad0667dc3f0907a9476ac47
+  subpackages:
+  - zk
+- name: github.com/Shopify/sarama
+  version: 94536b3e82d393e4b5dfa36475b40fc668e9486f
+- name: github.com/syndtr/goleveldb
+  version: b001fa50d6b27f3f0bb175a87d0cb55426d0a0ae
+  subpackages:
+  - leveldb
+  - leveldb/cache
+  - leveldb/comparer
+  - leveldb/errors
+  - leveldb/filter
+  - leveldb/iterator
+  - leveldb/journal
+  - leveldb/memdb
+  - leveldb/opt
+  - leveldb/storage
+  - leveldb/table
+  - leveldb/util
+- name: github.com/wvanbergen/kazoo-go
+  version: f72d8611297a7cf105da904c04198ad701a60101
+- name: golang.org/x/sync
+  version: 42b317875d0fa942474b76e1b46a6060d720ae6e
+  subpackages:
+  - errgroup
+- name: gopkg.in/redis.v5
+  version: a16aeec10ff407b1e7be6dd35797ccf5426ef0f0
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports:
+- name: github.com/facebookgo/ensure
+  version: b4ab57deab51ee655ae4bd85281f0715a068016d
+- name: github.com/facebookgo/stack
+  version: 751773369052141c013c6e827a71e8f35c07879c
+- name: github.com/facebookgo/subset
+  version: 8dac2c3c48703541e481feddf22975953d4ff842

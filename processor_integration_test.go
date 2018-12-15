@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/facebookgo/ensure"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/kafka"
-	"github.com/lovoo/goka/mock"
-	"github.com/lovoo/goka/storage"
-	"github.com/lovoo/goka/tester"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/codec"
+	"github.com/leenux/goka/kafka"
+	"github.com/leenux/goka/mock"
+	"github.com/leenux/goka/storage"
+	"github.com/leenux/goka/tester"
 )
 
 func doTimed(t *testing.T, do func()) error {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lovoo/goka/kafka"
+	"github.com/leenux/goka/kafka"
 )
 
 // Emitter emits messages into a specific Kafka topic, first encoding the message with the given codec.

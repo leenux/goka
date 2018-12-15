@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/lovoo/goka/kafka"
+	"github.com/leenux/goka/kafka"
 )
 
 func newMockConfluent(consumer confluentConsumer) *confluent {

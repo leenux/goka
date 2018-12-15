@@ -9,9 +9,9 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/examples/3-messaging"
-	"github.com/lovoo/goka/examples/3-messaging/collector"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/examples/3-messaging"
+	"github.com/leenux/goka/examples/3-messaging/collector"
 )
 
 func Run(brokers []string, stream goka.Stream) {

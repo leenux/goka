@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/kafka"
-	"github.com/lovoo/goka/storage"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/kafka"
+	"github.com/leenux/goka/storage"
 )
 
 // Codec decodes and encodes from and to []byte

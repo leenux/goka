@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lovoo/goka/kafka/mock"
+	"github.com/leenux/goka/kafka/mock"
 
 	"github.com/Shopify/sarama"
 	"github.com/facebookgo/ensure"

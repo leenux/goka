@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/kafka"
-	"github.com/lovoo/goka/logger"
-	"github.com/lovoo/goka/mock"
+	"github.com/leenux/goka/codec"
+	"github.com/leenux/goka/kafka"
+	"github.com/leenux/goka/logger"
+	"github.com/leenux/goka/mock"
 
 	"github.com/facebookgo/ensure"
 	"github.com/golang/mock/gomock"

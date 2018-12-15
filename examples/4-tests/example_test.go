@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/facebookgo/ensure"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/tester"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/codec"
+	"github.com/leenux/goka/tester"
 )
 
 // Scenario (1)

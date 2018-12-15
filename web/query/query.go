@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/logger"
-	"github.com/lovoo/goka/web/templates"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/logger"
+	"github.com/leenux/goka/web/templates"
 
 	"github.com/gorilla/mux"
 )

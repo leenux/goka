@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lovoo/goka/kafka"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/storage"
+	"github.com/leenux/goka/kafka"
+	"github.com/leenux/goka/multierr"
+	"github.com/leenux/goka/storage"
 )
 
 // Context provides access to the processor's table and emit capabilities to

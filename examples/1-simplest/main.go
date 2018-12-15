@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/codec"
 )
 
 var (

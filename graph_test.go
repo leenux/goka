@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/facebookgo/ensure"
-	"github.com/lovoo/goka/codec"
+	"github.com/leenux/goka/codec"
 )
 
 var c = new(codec.String)

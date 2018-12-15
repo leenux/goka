@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
+	"github.com/leenux/goka"
+	"github.com/leenux/goka/codec"
 )
 
 // simple consume function that is used in different tests
